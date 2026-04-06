@@ -94,3 +94,4 @@ def split_dom_content(dom_content, chunk_size=6000):
         dom_content[i:i+chunk_size] for i in range(0, len(dom_content), chunk_size)
     ]
 
+
